@@ -1,3 +1,6 @@
-<p> 
-Product List
-  </p>
+<h2> Product Details</h2>
+<div ng-if="product">
+<h3>{{product.name}} </h3>
+<h4>{{product.price | currency}} </h4>
+<p>Description : {{product.description}} </p>
+</div>
